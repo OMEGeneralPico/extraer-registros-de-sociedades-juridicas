@@ -8,6 +8,7 @@ path = os.getcwd()
 #buscar todos los archivos de extension csv y nombre con registro-nacional-sociedades
 all_files = glob.glob(path + "/registro-nacional-sociedades*.csv")
 print(all_files)
+
 df = pd.DataFrame()
 
 #Leer el csv sin encabezados
